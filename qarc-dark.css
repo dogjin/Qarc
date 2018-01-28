@@ -1,3 +1,7 @@
+QCheckBox {
+    color: #D3DAE3;
+}
+
 QCheckBox::indicator:checked {
     image: url("assets/dark-assets/checkbox/checkbox-checked.png");
 }
@@ -15,18 +19,20 @@ QDialog {
     color: #D3DAE3;
 }
 
-QTextEdit {
-    background-color: #2f333d;
+QLabel {
     color: #D3DAE3;
+}
+
+QLineEdit {
+    background-color: #495364;
+    color: #D3DAE3;  
 }
 
 QMainWindow {
     background-color: #444a58;
-}
-
-QLabel {
     color: #D3DAE3;
 }
+
 
 QPushButton {
     font-family: Futura Bk bt, sans, Sans-Serif;
@@ -39,9 +45,15 @@ QPushButton {
     box-shadow: inset 0 2px 4px rgba(68, 74, 88, 0.05);
 }
 
-/* QRadioButton:checked {
-    image: url("assets/dark-assets/checkbox/checkbox-checked-dark.png");
-} */
+QRadioButton {
+    color: #D3DAE3;
+}
+
+QTextEdit {
+    background-color: #495364;
+    color: #D3DAE3;
+}
+
 
 /* QSpinBox {
     color: transparent;
