@@ -14,6 +14,19 @@ QCheckBox::indicator:unchecked {
     image: url("assets/dark-assets/checkbox/checkbox-unchecked.png");
 }
 
+QComboBox {
+    background-color: #444a58;
+    color: #D3DAE3;
+}
+
+QComboBox::item:alternate {
+    background-color: #444a58;
+}
+
+QComboBox::item:selected {
+    background-color: #5294e2;
+}
+
 QDialog {
     background-color: #444a58;
     color: #D3DAE3;
@@ -24,7 +37,12 @@ QLabel {
 }
 
 QLineEdit {
-    background-color: #495364;
+    background-color: #444a58;
+    color: #D3DAE3;  
+}
+
+QLineEdit:hover {
+    background-color: #444a58;
     color: #D3DAE3;  
 }
 
@@ -49,12 +67,14 @@ QRadioButton {
     color: #D3DAE3;
 }
 
+QSpinBox {
+    background-color: #495364;
+    color: #D3DAE3;
+}
+
 QTextEdit {
     background-color: #495364;
     color: #D3DAE3;
 }
 
 
-/* QSpinBox {
-    color: transparent;
-} */
