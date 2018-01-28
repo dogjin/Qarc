@@ -1,0 +1,19 @@
+QMainWindow {
+    background-color: #444a58;
+}
+
+QButton {
+    background-color: rgba(102, 109, 132, 0.35);
+}
+
+QLineEdit {
+    background-color: aliceblue;
+}
+
+QCheckBox {
+    
+}
+
+/* QSpinBox {
+    color: transparent;
+} */
