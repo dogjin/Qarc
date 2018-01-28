@@ -1,23 +1,47 @@
-
-QButton {
-    background-color: rgba(102, 109, 132, 0.35);
-}
-
 QCheckBox::indicator:checked {
-    image: url("assets/dark-assets/checkbox/checkbox-checked-dark.png");
+    image: url("assets/dark-assets/checkbox/checkbox-checked.png");
 }
+
+/* QCheckBox::indicator:checked:hover {
+    image: url("assets/dark-assets/checkbox/checkbox-checked-focused.png");
+} */
 
 QCheckBox::indicator:unchecked {
-    image: url("assets/dark-assets/checkbox/checkbox-unchecked.png")
+    image: url("assets/dark-assets/checkbox/checkbox-unchecked.png");
 }
 
-QLineEdit {
-    background-color: aliceblue;
+QDialog {
+    background-color: #444a58;
+    color: #D3DAE3;
+}
+
+QTextEdit {
+    background-color: #2f333d;
+    color: #D3DAE3;
 }
 
 QMainWindow {
     background-color: #444a58;
 }
+
+QLabel {
+    color: #D3DAE3;
+}
+
+QPushButton {
+    font-family: Futura Bk bt, sans, Sans-Serif;
+    font-size: 9pt;
+    background-color: rgba(102, 109, 132, 0.35);
+    color: #D3DAE3;
+    padding: 5px 32px;
+    text-shadow: 0 1px rgba(64, 69, 82, 0);
+    border: 1px solid #2b2e39;
+    box-shadow: inset 0 2px 4px rgba(68, 74, 88, 0.05);
+}
+
+/* QRadioButton:checked {
+    image: url("assets/dark-assets/checkbox/checkbox-checked-dark.png");
+} */
 
 /* QSpinBox {
     color: transparent;
