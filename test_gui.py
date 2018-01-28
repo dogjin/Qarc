@@ -441,7 +441,8 @@ class TestUI(QMainWindow):
 
 def start():
     ui = TestUI()
-    with open("qarc.css", "r") as f:
+    with open("qarc-dark.css", "r") as f:
+        print(f)
         ui.setStyleSheet("".join(f.readlines()))
     ui.show()
     return ui
