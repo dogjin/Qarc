@@ -1,17 +1,22 @@
-QMainWindow {
-    background-color: #444a58;
-}
 
 QButton {
     background-color: rgba(102, 109, 132, 0.35);
+}
+
+QCheckBox::indicator:checked {
+    image: url("assets/dark-assets/checkbox/checkbox-checked-dark.png");
+}
+
+QCheckBox::indicator:unchecked {
+    image: url("assets/dark-assets/checkbox/checkbox-unchecked.png")
 }
 
 QLineEdit {
     background-color: aliceblue;
 }
 
-QCheckBox {
-    
+QMainWindow {
+    background-color: #444a58;
 }
 
 /* QSpinBox {
