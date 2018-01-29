@@ -67,6 +67,11 @@ QComboBox::down-arrow {
     color: #D3DAE3;  
 } */
 
+/* QFrame {
+    background-color: #3d424e;
+    border: none;
+} */
+
 QGroupBox::indicator:checked {
     image: url("assets/dark-assets/checkbox/checkbox-checked-dark.png");
 }
