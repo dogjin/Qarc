@@ -16,7 +16,7 @@ QComboBox, QLineEdit, QSpinBox, QTextEdit {
     padding: 3px 3px;
 }
 
-QListWidget, QTableWidget, QTreeWidget {
+QListWidget, QTableWidget, QTreeWidget, QHeaderView {
     background-color: #495364;
     color: #D3DAE3;
     alternate-background-color: #444a58;
@@ -78,6 +78,12 @@ QGroupBox::indicator:checked {
 
 QGroupBox::indicator:unchecked {
     image: url("assets/dark-assets/checkbox/checkbox-unchecked-dark.png");
+}
+
+QHeaderView::section {
+    background-color: #3d424e;
+    border: 0.5px solid #3d424e;
+    padding: 3px 3px;
 }
 
 /* QLabel {
