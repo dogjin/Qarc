@@ -6,11 +6,14 @@ QCheckBox, QLabel{
 QComboBox, QDialog, QDockWidget, QMainWindow {
     background-color: #444a58;
     color: #D3DAE3;
+    border: 1px solid #3d424e;
 }
 
 QLineEdit, QSpinBox, QTextEdit {
     background-color: #495364;
-    color: #D3DAE3;   
+    color: #D3DAE3;
+    border: none;
+    padding: 3px 3px;
 }
 
 QListWidget, QTableWidget, QTreeWidget {
@@ -64,10 +67,10 @@ QComboBox::item:selected {
     color: #D3DAE3;  
 } */
 
-QLineEdit:hover {
+/* QLineEdit:hover {
     background-color: #5294e2;
     color: #D3DAE3;  
-}
+} */
 
 /* QListWidget {
     background-color: #495364;
@@ -87,8 +90,13 @@ QPushButton {
     color: #D3DAE3;
     padding: 5px 32px;
     text-shadow: 0 1px rgba(64, 69, 82, 0);
-    border: 1px solid #2b2e39;
+    border: none;
+    /* border: 1px solid #2b2e39; */
     box-shadow: inset 0 2px 4px rgba(68, 74, 88, 0.05);
+}
+
+QPushButton:hover {
+    background-color: #495364;
 }
 
 QRadioButton {
