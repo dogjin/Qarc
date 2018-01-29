@@ -231,6 +231,7 @@ class TestUI(QMainWindow):
         msgBoxBtn = QPushButton("Message Dialog")
         sixthHorizontalArea.addWidget(msgBoxBtn)
         msgBoxBtn.clicked.connect(partial(QMessageBox().information, self, "Message", "This is normal information message."))
+        msgBoxBtn.setEnabled(False)
 
         colorDialogBtn = QPushButton("Color Dialog")
         sixthHorizontalArea.addWidget(colorDialogBtn)

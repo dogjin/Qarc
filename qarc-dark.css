@@ -120,7 +120,7 @@ QHeaderView::section {
 QPushButton {
     font-family: Futura Bk bt, sans, Sans-Serif;
     font-size: 9pt;
-    background-color: rgba(102, 109, 132, 0.35);
+    background-color: #495364;
     color: #D3DAE3;
     padding: 5px 32px;
     text-shadow: 0 1px rgba(64, 69, 82, 0);
@@ -129,8 +129,13 @@ QPushButton {
     box-shadow: inset 0 2px 4px rgba(68, 74, 88, 0.05);
 }
 
-QPushButton:hover {
+QPushButton:disabled {
     background-color: #495364;
+    color: rgb(133, 133, 133);
+}
+
+QPushButton:hover {
+    background-color: #525d70;
 }
 
 /* QRadioButton {
