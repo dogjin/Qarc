@@ -32,6 +32,11 @@ QDialog {
     color: #D3DAE3;
 }
 
+QDockWidget {
+    background-color: #444a58;
+    color: #D3DAE3;  
+}
+
 QLabel {
     color: #D3DAE3;
 }
