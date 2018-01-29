@@ -133,6 +133,14 @@ QRadioButton::indicator:unchecked {
     color: #D3DAE3;
 } */
 
+QSpinBox::up-button {
+    image: url("assets/common-assets/misc/ws-switch-arrow-up.png");
+}
+
+QSpinBox::down-button {
+    image: url("assets/common-assets/misc/ws-switch-arrow-down.png");
+}
+
 /* QTableWidget {
     background-color: #495364;
     color: #D3DAE3;
