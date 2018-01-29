@@ -1,7 +1,25 @@
-QCheckBox {
+/* Share Styles */
+QCheckBox, QLabel{
     color: #D3DAE3;
 }
 
+QComboBox, QDialog, QDockWidget, QMainWindow {
+    background-color: #444a58;
+    color: #D3DAE3;
+}
+
+QLineEdit, QSpinBox, QTextEdit {
+    background-color: #495364;
+    color: #D3DAE3;   
+}
+
+QListWidget, QTableWidget, QTreeWidget {
+    background-color: #495364;
+    color: #D3DAE3;
+    alternate-background-color: #444a58;
+}
+
+/* Unique Styles */
 QCheckBox::indicator:checked {
     image: url("assets/dark-assets/checkbox/checkbox-checked.png");
 }
@@ -14,10 +32,10 @@ QCheckBox::indicator:unchecked {
     image: url("assets/dark-assets/checkbox/checkbox-unchecked.png");
 }
 
-QComboBox {
+/* QComboBox {
     background-color: #444a58;
     color: #D3DAE3;
-}
+} */
 
 QComboBox::item:alternate {
     background-color: #444a58;
@@ -27,41 +45,40 @@ QComboBox::item:selected {
     background-color: #5294e2;
 }
 
-QDialog {
+/* QDialog {
     background-color: #444a58;
     color: #D3DAE3;
-}
+} */
 
-QDockWidget {
+/* QDockWidget {
     background-color: #444a58;
     color: #D3DAE3;  
-}
+} */
 
-QLabel {
+/* QLabel {
     color: #D3DAE3;
-}
+} */
 
-QLineEdit {
+/* QLineEdit {
     background-color: #495364;
     color: #D3DAE3;  
-}
+} */
 
 QLineEdit:hover {
     background-color: #5294e2;
     color: #D3DAE3;  
 }
 
-QListWidget {
+/* QListWidget {
     background-color: #495364;
     color: #D3DAE3;
     alternate-background-color: #444a58;
-}
+} */
 
-QMainWindow {
+/* QMainWindow {
     background-color: #444a58;
     color: #D3DAE3;
-}
-
+} */
 
 QPushButton {
     font-family: Futura Bk bt, sans, Sans-Serif;
@@ -78,27 +95,27 @@ QRadioButton {
     color: #D3DAE3;
 }
 
-QSpinBox {
+/* QSpinBox {
     background-color: #495364;
     color: #D3DAE3;
-}
+} */
 
-QTableWidget {
+/* QTableWidget {
     background-color: #495364;
     color: #D3DAE3;
     alternate-background-color: #444a58;
-}
+} */
 
-QTextEdit {
+/* QTextEdit {
     background-color: #495364;
     color: #D3DAE3;
-}
+} */
 
-QTreeWidget {
+/* QTreeWidget {
     background-color: #495364;
     color: #D3DAE3;
     alternate-background-color: #444a58;
-}
+} */
 
 QTreeWidget::item:selected {
     selection-color: #5294e2;
