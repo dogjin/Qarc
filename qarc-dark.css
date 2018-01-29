@@ -154,12 +154,50 @@ QScrollBar {
     background-color: #444a58;
 }
 
-QScrollBar:vertical {
-    border: none;
+QScrollBar:horizontal {
+    height: 12px;
+    min-width: 20px;
 }
 
-QScrollBar::handle:horizontal {
-    background-color: #495364;
+QScrollBar:vertical {
+    width: 12px;
+    min-height:20px;
+    /* border-radius:10px; */
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background-color: #5294e2;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background-color: none;
+}
+
+QScrollBar:down-arrow:vertical {
+    image: url("assets/common-assets/misc/ws-switch-arrow-down.png");
+}
+
+QScrollBar::up-arrow:vertical {
+    image: url("assets/common-assets/misc/ws-switch-arrow-up.png");
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background-color: none;
+}
+
+/* QSlider::groove:horizontal {
+    border:1px solid #999999;
+    height:12px;
+    margin:2px 0;
+} */
+
+QSlider::handle:horizontal {
+    background-color: #5294e2;
+    width: 18px;
+    border: 1px solid #5294e2;
+    border-radius: 3px;
 }
 
 /* QSpinBox {
