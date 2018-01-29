@@ -1,5 +1,5 @@
 /* Share Styles */
-QCheckBox, QLabel{
+QCheckBox, QLabel, QRadioButton{
     color: #D3DAE3;
 }
 
@@ -24,7 +24,7 @@ QListWidget, QTableWidget, QTreeWidget {
 
 /* Unique Styles */
 QCheckBox::indicator:checked {
-    image: url("assets/dark-assets/checkbox/checkbox-checked.png");
+    image: url("assets/dark-assets/checkbox/checkbox-checked-dark.png");
 }
 
 /* QCheckBox::indicator:checked:hover {
@@ -32,7 +32,7 @@ QCheckBox::indicator:checked {
 } */
 
 QCheckBox::indicator:unchecked {
-    image: url("assets/dark-assets/checkbox/checkbox-unchecked.png");
+    image: url("assets/dark-assets/checkbox/checkbox-unchecked-dark.png");
 }
 
 /* QComboBox {
@@ -40,13 +40,17 @@ QCheckBox::indicator:unchecked {
     color: #D3DAE3;
 } */
 
-QComboBox::item:alternate {
-    background-color: #444a58;
+QComboBox::down-arrow {
+    image: url("assets/common-assets/misc/ws-switch-arrow-down.png");
 }
 
-QComboBox::item:selected {
+/* QComboBox::item:alternate {
+    background-color: #444a58;
+} */
+
+/* QComboBox::item:selected {
     background-color: #5294e2;
-}
+} */
 
 /* QDialog {
     background-color: #444a58;
@@ -57,6 +61,14 @@ QComboBox::item:selected {
     background-color: #444a58;
     color: #D3DAE3;  
 } */
+
+QGroupBox::indicator:checked {
+    image: url("assets/dark-assets/checkbox/checkbox-checked-dark.png");
+}
+
+QGroupBox::indicator:unchecked {
+    image: url("assets/dark-assets/checkbox/checkbox-unchecked-dark.png");
+}
 
 /* QLabel {
     color: #D3DAE3;
@@ -99,8 +111,16 @@ QPushButton:hover {
     background-color: #495364;
 }
 
-QRadioButton {
+/* QRadioButton {
     color: #D3DAE3;
+} */
+
+QRadioButton::indicator:checked {
+    image: url("assets/dark-assets/radio/radio-checked-dark.png");
+}
+
+QRadioButton::indicator:unchecked {
+    image: url("assets/dark-assets/radio/radio-unchecked-dark.png");
 }
 
 /* QSpinBox {
