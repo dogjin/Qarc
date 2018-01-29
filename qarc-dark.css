@@ -145,6 +145,18 @@ QRadioButton::indicator:unchecked {
     image: url("assets/dark-assets/radio/radio-unchecked-dark.png");
 }
 
+QScrollBar {
+    background-color: #444a58;
+}
+
+QScrollBar:vertical {
+    border: none;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #495364;
+}
+
 /* QSpinBox {
     background-color: #495364;
     color: #D3DAE3;
