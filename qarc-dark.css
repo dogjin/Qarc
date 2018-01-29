@@ -3,13 +3,13 @@ QCheckBox, QLabel{
     color: #D3DAE3;
 }
 
-QComboBox, QDialog, QDockWidget, QMainWindow {
+QDialog, QDockWidget, QMainWindow {
     background-color: #444a58;
     color: #D3DAE3;
     border: 1px solid #3d424e;
 }
 
-QLineEdit, QSpinBox, QTextEdit {
+QComboBox, QLineEdit, QSpinBox, QTextEdit {
     background-color: #495364;
     color: #D3DAE3;
     border: none;
