@@ -42,12 +42,12 @@ QLabel {
 }
 
 QLineEdit {
-    background-color: #444a58;
+    background-color: #495364;
     color: #D3DAE3;  
 }
 
 QLineEdit:hover {
-    background-color: #444a58;
+    background-color: #5294e2;
     color: #D3DAE3;  
 }
 
