@@ -40,6 +40,11 @@ QCheckBox::indicator:unchecked {
     color: #D3DAE3;
 } */
 
+QComboBox::drop-down {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
 QComboBox::down-arrow {
     image: url("assets/common-assets/misc/ws-switch-arrow-down.png");
 }
