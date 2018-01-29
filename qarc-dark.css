@@ -117,6 +117,22 @@ QHeaderView::section {
     color: #D3DAE3;
 } */
 
+QProgressBar {
+    color: #D3DAE3;
+}
+
+QProgressBar:horizontal {
+    border: 1px solid #495364;
+    border-radius: 3px;
+    background: #444a58;
+    padding: 1px;
+}
+
+QProgressBar::chunk:horizontal {
+    background-color: #5294e2;
+    /* background: qlineargradient(x1: 0, y1: 0.5, x2: 1, y2: 0.5, stop: 0 #5294e2, stop: 1 #444a58 ); */
+}
+
 QPushButton {
     font-family: Futura Bk bt, sans, Sans-Serif;
     font-size: 9pt;
