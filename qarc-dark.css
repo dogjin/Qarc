@@ -51,6 +51,12 @@ QLineEdit:hover {
     color: #D3DAE3;  
 }
 
+QListWidget {
+    background-color: #495364;
+    color: #D3DAE3;
+    alternate-background-color: #444a58;
+}
+
 QMainWindow {
     background-color: #444a58;
     color: #D3DAE3;
@@ -77,9 +83,23 @@ QSpinBox {
     color: #D3DAE3;
 }
 
+QTableWidget {
+    background-color: #495364;
+    color: #D3DAE3;
+    alternate-background-color: #444a58;
+}
+
 QTextEdit {
     background-color: #495364;
     color: #D3DAE3;
 }
 
+QTreeWidget {
+    background-color: #495364;
+    color: #D3DAE3;
+    alternate-background-color: #444a58;
+}
 
+QTreeWidget::item:selected {
+    selection-color: #5294e2;
+}
