@@ -1,29 +1,58 @@
-/* Unique Styles */
+
+QToolTip
+{
+    border: 1px solid #76797C;
+    background-color: rgb(90, 102, 117);;
+    color: white;
+    padding: 5px;
+    opacity: 200;
+}
+
+
+QWidget {
+    background-color: #444a58;
+}
+
+QWidget:disabled
+{
+    color: #888888;
+    background-color: #3d424e;
+}
+
+QWidget:item:hover
+{
+    background-color: #5294e2;
+    color: #eff0f1;
+}
+
+QWidget:item:selected
+{
+    background-color: #5294e2;
+}
+
+QCheckBox::indicator:checked,
+QGroupBox::indicator:checked {
+    image: url("assets/dark-assets/checkbox/checkbox-checked-dark.png");
+}
+
+QCheckBox::indicator:unchecked,
+QGroupBox::indicator:unchecked {
+    image: url("assets/dark-assets/checkbox/checkbox-unchecked-dark.png");
+}
+
 QCalendarWidget QAbstractItemView {
     background-color: #444a58;
     color: #D3DAE3;
 }
 
-QCalendarWidget::VerticalHeaderFormat {
+QCalendarWidget::HorizontalHeader {
     background-color: #444a58;
 }
 
-QCheckBox::indicator:checked {
-    image: url("assets/dark-assets/checkbox/checkbox-checked-dark.png");
-}
-
-/* QCheckBox::indicator:checked:hover {
-    image: url("assets/dark-assets/checkbox/checkbox-checked-focused.png");
-} */
-
-QCheckBox::indicator:unchecked {
-    image: url("assets/dark-assets/checkbox/checkbox-unchecked-dark.png");
-}
-
-/* QComboBox {
+QFrame {
     background-color: #444a58;
-    color: #D3DAE3;
-} */
+    border: none;
+}
 
 QComboBox QAbstractItemView {
     background-color: #495364;
@@ -44,67 +73,11 @@ QComboBox::up-arrow {
     image: url("assets/common-assets/misc/ws-switch-arrow-up.png");
 }
 
-/* QComboBox::item:alternate {
-    background-color: #444a58;
-} */
-
-/* QComboBox::item:selected {
-    background-color: #5294e2;
-} */
-
-/* QDialog {
-    background-color: #444a58;
-    color: #D3DAE3;
-} */
-
-/* QDockWidget {
-    background-color: #444a58;
-    color: #D3DAE3;  
-} */
-
-/* QFrame {
-    background-color: #3d424e;
-    border: none;
-} */
-
-QGroupBox::indicator:checked {
-    image: url("assets/dark-assets/checkbox/checkbox-checked-dark.png");
-}
-
-QGroupBox::indicator:unchecked {
-    image: url("assets/dark-assets/checkbox/checkbox-unchecked-dark.png");
-}
-
 QHeaderView::section {
     background-color: #3d424e;
     border: 0.5px solid #3d424e;
     padding: 3px 3px;
 }
-
-/* QLabel {
-    color: #D3DAE3;
-} */
-
-/* QLineEdit {
-    background-color: #495364;
-    color: #D3DAE3;  
-} */
-
-/* QLineEdit:hover {
-    background-color: #5294e2;
-    color: #D3DAE3;  
-} */
-
-/* QListWidget {
-    background-color: #495364;
-    color: #D3DAE3;
-    alternate-background-color: #444a58;
-} */
-
-/* QMainWindow {
-    background-color: #444a58;
-    color: #D3DAE3;
-} */
 
 QProgressBar {
     color: #D3DAE3;
@@ -142,10 +115,6 @@ QPushButton:disabled {
 QPushButton:hover {
     background-color: #525d70;
 }
-
-/* QRadioButton {
-    color: #D3DAE3;
-} */
 
 QRadioButton::indicator:checked {
     image: url("assets/dark-assets/radio/radio-checked-dark.png");
@@ -191,24 +160,12 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
     background-color: none;
 }
 
-/* QSlider::groove:horizontal {
-    border:1px solid #999999;
-    height:12px;
-    margin:2px 0;
-} */
-
 QSlider::handle:horizontal {
     background-color: #5294e2;
     width: 18px;
     border: 1px solid #5294e2;
     border-radius: 3px;
 }
-
-/* QSpinBox {
-    background-color: #495364;
-    color: #D3DAE3;
-} */
-
 QSpinBox::up-button {
     image: url("assets/common-assets/misc/ws-switch-arrow-up.png");
 }
@@ -217,33 +174,11 @@ QSpinBox::down-button {
     image: url("assets/common-assets/misc/ws-switch-arrow-down.png");
 }
 
-/* QTableWidget {
-    background-color: #495364;
-    color: #D3DAE3;
-    alternate-background-color: #444a58;
-} */
-
-/* QTextEdit {
-    background-color: #495364;
-    color: #D3DAE3;
-} */
-
-/* QTreeWidget {
-    background-color: #495364;
-    color: #D3DAE3;
-    alternate-background-color: #444a58;
-} */
-
-/* QTreeWidget::item:selected {
-    selection-color: #5294e2;
-} */
-
-/* Share Styles */
 QCheckBox, QLabel, QRadioButton{
     color: #D3DAE3;
 }
 
-QDialog, QDockWidget, QMainWindow {
+QDialog, QDockWidget, QMainWindow, QToolTip {
     background-color: #444a58;
     color: #D3DAE3;
     border: 1px solid #3d424e;
