@@ -117,10 +117,14 @@ QPushButton:hover {
 }
 
 QRadioButton::indicator:checked {
+    border: none;
+    outline: none;
     image: url("assets/dark-assets/radio/radio-checked-dark.png");
 }
 
 QRadioButton::indicator:unchecked {
+    border: none;
+    outline: none;
     image: url("assets/dark-assets/radio/radio-unchecked-dark.png");
 }
 
