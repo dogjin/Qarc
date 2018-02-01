@@ -178,6 +178,8 @@ QSpinBox::down-button {
     image: url("assets/common-assets/misc/ws-switch-arrow-down.png");
 }
 
+
+/* Shared Style */
 QCheckBox, QLabel, QRadioButton{
     color: #D3DAE3;
 }
